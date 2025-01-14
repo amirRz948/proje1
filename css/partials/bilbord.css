@@ -1,0 +1,18 @@
+.bilbord {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  .bilbord-center {
+    width: 80%;
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-right: 50px;
+    img {
+      width: 660px;
+      height: 264px;
+      border-radius: 15px;
+    }
+  }
+}

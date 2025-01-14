@@ -1,0 +1,15 @@
+.tabligh {
+  width: 100%;
+  height: 290px;
+  display: flex;
+
+  .tabligh-item {
+    width: 100%;
+    height: 290px;
+    margin-right: 25px;
+    img {
+      border-radius: 5%;
+      width: 700px;
+    }
+  }
+}

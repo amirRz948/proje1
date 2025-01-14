@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* font */
+@font-face {
+  font-family: iranyekan;
+  src: url(../../font/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: numberpersian;
+  src: url(../../font/B-NAZANIN.TTF);
+}
+
+:root {
+  --font-family: iranyekan;
+  --font-number: numberpersian;
+  --border-radius: 8px;
+  --width-center: 70%;
+}
+.wrapper {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}

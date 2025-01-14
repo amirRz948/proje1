@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>شگفت انگیز ها</title>
+    <link
+      rel="shortcut icon"
+      href="image/icon/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/partials/shegeft.css/asli.css" />
+  </head>
+  <body>
+    <!--#region wrapper-->
+    <div class="wrapper"></div>
+    <!--#region haeder-->
+    <header class="header">
+      <div class="header-banner">
+        <img src="image/header/gif header.gif" alt="" />
+      </div>
+      <div class="header-serch">
+        <div class="header-serch-logo">
+          <img src="svg/logo.svg" class="header-serch-logo-img" alt="" />
+        </div>
+        <div class="header-serch-ajax">
+          <input
+            type="text"
+            placeholder="جست و جو"
+            class="header-serch-ajax-input"
+          />
+        </div>
+        <div class="header-serch-register">
+          <a href="#" class="header-serch-register-link-first">
+            ورود
+            <div class="header-serch-register-link-first-divider"></div>
+            ثبت نام
+          </a>
+          <div></div>
+          <a href="#" class="header-serch-register-link-second">
+            <img src="svg/basket.svg" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="header-menu">
+        <div class="right">
+          <nav class="right-nav">
+            <div class="right-nav-item">
+              <a class="right-nav-item-link bold" href="#">
+                <div class="submen"></div>
+                <img src="svg/bars.svg" alt="" />
+                دسته بندی کالا ها
+              </a>
+            </div>
+            <div class="righ-nav-item-devider"></div>
+            <div class="right-nav-item">
+              <a class="right-nav-item-link" href="suprize.html">
+                <img src="svg/por.svg" alt="" />
+                شگفت انگیز ها
+              </a>
+            </div>
+            <div class="right-nav-item">
+              <a class="right-nav-item-link" href="#">
+                <img src="svg/super.svg" alt="" />
+                سوپرمارکت
+              </a>
+            </div>
+            <div class="right-nav-item">
+              <a class="right-nav-item-link" href="#">
+                <img src="svg/star.svg" alt="" />
+                کارت هدیه
+              </a>
+            </div>
+            <div class="right-nav-item">
+              <a class="right-nav-item-link" href="#">
+                <img src="svg/porfrosh.svg" alt="" />
+                پرفروش ترین ها
+              </a>
+            </div>
+            <div class="right-nav-item">
+              <a class="right-nav-item-link" href="#">
+                <img src="svg/shegeft.svg" alt="" />
+                تخفیف هاوپیشنهاد ها
+              </a>
+            </div>
+            <div class="right-nav-item">
+              <a class="right-nav-item-link" href="#">سوالی دارید؟</a>
+            </div>
+            <div class="right-nav-item">
+              <a class="right-nav-item-link" href="#">در دیجی کالا بفروشید</a>
+            </div>
+          </nav>
+        </div>
+        <div class="left">
+          <img src="svg/location.svg" alt="" />
+          <h6>لطفا شهر خود را انتخاب کنید</h6>
+        </div>
+      </div>
+    </header>
+    <!--# end region-->
+    <!--#  region aval-->
+    <div class="aval">پیشنهاد شگفت انگیز</div>
+    <div class="item">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide img">
+              <img src="image/slider/image1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide img">
+            <img src="image/slider/image2.gif" alt="" />
+          </div>
+          <div class="swiper-slide img">
+            <img src="image/slider/image7.gif" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!--# end region aval-->
+    <!--# end region aval-->
+    <!--# end region aval-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
