@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sabetenam {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  margin-top: 120px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  input {
+    font-size: 16px;
+  }
+  .center-top {
+    width: 450px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    img {
+      width: 100px;
+      height: 69px;
+      margin: 20px 180px;
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 350px;
+    margin-top: -300px;
+    font-family: var(--font-family);
+    h6 {
+      margin-left: 120px;
+      margin-top: 20px;
+      font-family: var(--font-family);
+    }
+    .bottom-bottom {
+      margin: 0 auto;
+      font-family: var(--font-family);
+      font-size: 10px;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  .item {
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid red;
+    width: 400px;
+    height: 50px;
+    margin: 20px auto;
+    margin-top: 50px;
+    opacity: 0.6;
+    h2 {
+      font-family: var(--font-family);
+      font-size: 12px;
+      margin-top: 13px;
+      margin-left: 190px;
+      color: white;
+    }
+    &:hover {
+      background-color: red;
+      transition-duration: unset;
+      opacity: 1;
+    }
+  }
+}

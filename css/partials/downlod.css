@@ -1,0 +1,32 @@
+.downlod {
+  width: 100%;
+  height: 100px;
+  background-color: #3c4b6d;
+  display: flex;
+  flex-flow: row wrap;
+  .downlod-right {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    margin-right: 20px;
+    img {
+      width: 44px;
+      height: 44px;
+    }
+    p {
+      color: white;
+      margin-right: 20px;
+      font-family: var(--font-family);
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+  .downlod-left {
+    margin-top: 20px;
+    margin-right: 40%;
+    img {
+      width: 142px;
+      height: 44px;
+    }
+  }
+}
