@@ -1,0 +1,27 @@
+.bottomsup {
+  width: 1490px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: lightgray;
+  position: relative;
+  left: 240px;
+  .top-img {
+    img {
+      width: 120px;
+      height: 50px;
+      column-gap: 200px;
+      margin-right: 50px;
+      margin-top: 20px;
+    }
+  }
+  .bottom-img {
+    img {
+      width: 120px;
+      height: 50px;
+      column-gap: 200px;
+      margin-right: 150px;
+      margin-top: 20px;
+    }
+  }
+}

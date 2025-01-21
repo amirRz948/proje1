@@ -1,0 +1,73 @@
+.suprizeday {
+  width: 100%;
+  height: 300px;
+  background-color: #e4123c;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 50px;
+  .suprizeday-center {
+    width: 90%;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    margin-right: 60px;
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .swiper-slide-center {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-flow: row wrap;
+
+        .img-right {
+          width: 200px;
+          height: 200px;
+          margin-top: 30px;
+        }
+        .item {
+          width: 60%;
+          height: 100%;
+          .item-text {
+            width: 500px;
+            height: 100px;
+            margin-top: 80px;
+            p {
+              font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+              margin-left: 90px;
+              margin-top: 40px;
+              position: relative;
+              top: 40px;
+              left: 40px;
+            }
+          }
+          .item-gh {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
