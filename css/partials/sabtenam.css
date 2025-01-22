@@ -4,13 +4,15 @@
 }
 .sabetenam {
   width: 500px;
-  height: 500px;
+  height: 600px;
   margin: 50px auto;
   margin-top: 120px;
   border: 1px solid lightgray;
   border-radius: 15px;
   input {
     font-size: 16px;
+    font-family: var(--font-family);
+    text-align: center;
   }
   .center-top {
     width: 450px;
@@ -26,18 +28,25 @@
   .bottom {
     display: flex;
     flex-flow: row wrap;
-    margin-left: 350px;
+    margin-left: 0;
     margin-top: -300px;
     font-family: var(--font-family);
+    background-color: white;
+    h2 {
+      margin-left: 200px;
+    }
     h6 {
-      margin-left: 120px;
-      margin-top: 20px;
+      position: relative;
+      left: 40px;
+      margin-top: 130px;
       font-family: var(--font-family);
     }
     .bottom-bottom {
       margin: 0 auto;
       font-family: var(--font-family);
       font-size: 10px;
+      margin-top: 0px;
+      margin-right: 90px;
       &:hover {
         color: red;
       }
@@ -50,7 +59,7 @@
     width: 400px;
     height: 50px;
     margin: 20px auto;
-    margin-top: 50px;
+    margin-top: 50;
     opacity: 0.6;
     h2 {
       font-family: var(--font-family);

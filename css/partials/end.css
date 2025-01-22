@@ -7,12 +7,20 @@
       font-family: var(--font-family);
       font-family: var(--font-number);
       margin-top: 5px;
+     
+     
+
     }
     h4 {
+      position: relative;
+    
+
       font-family: var(--font-family);
     }
     img {
       margin-top: 125px;
+     
+      right: 50px;
     }
     a {
       font-family: var(--font-family);
@@ -22,7 +30,10 @@
       background-color: lightgray;
       border: 1 solid black;
       border-radius: 15px;
+    position: relative;
+    bottom: 40px;
     }
+    
   }
   .end-bottom {
     width: 100%;
@@ -40,6 +51,8 @@
         flex-flow: row wrap;
         column-gap: 350px;
         margin-top: 50px;
+        position: relative;
+        bottom: 30px;
       }
     }
   }

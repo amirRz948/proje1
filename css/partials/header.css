@@ -113,7 +113,7 @@
     width: 85%;
     height: inherit;
 
-    .right-nav{
+    .right-nav {
       width: 100%;
       height: inherit;
       display: flex;
@@ -140,36 +140,18 @@
       }
     }
   }
-  .left{
+  .left {
     width: 15%;
     height: inherit;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     column-gap: 10px;
-    h6{
+    h6 {
       font-family: var(--font-family);
       font-size: 11px;
       font-weight: normal;
     }
-  }
-  .submenu{
-    width: 90vh;
-    height: 800px;
-   
-    background-color: red;
-  padding-top: 50px;
-    position:absolute;
-    display: none;
-    z-index: 2;
-  
-    
-  }
-  &:hover .submenu{
-    display: block;
-    position: absolute;
-    
-   
   }
 
   .bold {

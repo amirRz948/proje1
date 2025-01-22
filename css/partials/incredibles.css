@@ -4,7 +4,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 200px;
   margin-top: 10px;
   .incredibles-center {
     width: 70%;

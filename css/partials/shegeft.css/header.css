@@ -58,7 +58,7 @@
         border: none;
         padding-right: 60px;
         &::placeholder {
-          font-family: var(--font-family);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           font-size: 12px;
         }
       }
@@ -92,7 +92,7 @@
       column-gap: 5px;
       color: black;
       font-size: 12px;
-      font-family: var(--font-family);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-decoration: none;
       font-weight: bold;
       align-items: center;
@@ -129,7 +129,7 @@
             width: fit-content;
             height: inherit;
             color: rgb(85, 82, 82);
-            font-family: var(--font-family);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-decoration: none;
             font-size: 12px;
             line-height: 40px;
@@ -148,7 +148,7 @@
       align-items: center;
       column-gap: 10px;
       h6{
-        font-family: var(--font-family);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 11px;
         font-weight: normal;
       }
@@ -157,7 +157,7 @@
       width: 90vh;
       height: 800px;
      
-      background-color: red;
+      background-color: #e4123c;
     padding-top: 50px;
       position:absolute;
       display: none;
@@ -193,7 +193,7 @@
     column-gap: 10px;
   
     .header-menu-left-text {
-      font-family: var(--font-family);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: 11px;
       font-weight: normal;
     }
